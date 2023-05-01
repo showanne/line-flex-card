@@ -1,0 +1,163 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "xl",
+    "action": {
+      "type": "uri",
+      "uri": "https://showanne.github.io/"
+    },
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1080879265945489489/1084490307145584761/show0311_logo_with_Awhite_background_simple_style_156c4027-8ed3-497b-b502-e6d28ae5ed25.png"
+          },
+          {
+            "type": "text",
+            "text": "Anne",
+            "size": "md"
+          }
+        ],
+        "flex": 0,
+        "justifyContent": "center",
+        "alignItems": "center",
+        "paddingAll": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "5px",
+        "color": "#333333"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://tbwrc.org/src/image/icon/phone.svg",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "+886 918184250",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "tel:0918184250"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px"
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://tbwrc.org/src/image/icon/site.svg",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "showanne.github.io",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "https://showanne.github.io/"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px"
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://tbwrc.org/src/image/icon/mail.svg",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "showanne.e@gmail.com",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "mailto:showanne.e@gmail.com"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px",
+                    "wrap": true
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
+          }
+        ],
+        "justifyContent": "center"
+      }
+    ]
+  },
+  "styles": {
+    "body": {
+      "backgroundColor": "#f4f4f3"
+    }
+  }
+}
