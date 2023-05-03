@@ -16,12 +16,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://cdn.discordapp.com/attachments/1080879265945489489/1084490307145584761/show0311_logo_with_Awhite_background_simple_style_156c4027-8ed3-497b-b502-e6d28ae5ed25.png"
-          },
-          {
-            "type": "text",
-            "text": "Anne",
-            "size": "md"
+            "url": "https://i.imgur.com/wAtdqfv.png"
           }
         ],
         "flex": 0,
@@ -32,7 +27,7 @@
       {
         "type": "separator",
         "margin": "5px",
-        "color": "#333333"
+        "color": "#ffc97e"
       },
       {
         "type": "box",
@@ -64,7 +59,8 @@
                       "uri": "tel:0918184250"
                     },
                     "align": "start",
-                    "offsetBottom": "3px"
+                    "offsetBottom": "3px",
+                    "color": "#ffc97e"
                   }
                 ],
                 "alignItems": "center",
@@ -101,7 +97,8 @@
                       "uri": "https://showanne.github.io/"
                     },
                     "align": "start",
-                    "offsetBottom": "3px"
+                    "offsetBottom": "3px",
+                    "color": "#ffc97e"
                   }
                 ],
                 "alignItems": "center",
@@ -139,7 +136,47 @@
                     },
                     "align": "start",
                     "offsetBottom": "3px",
-                    "wrap": true
+                    "wrap": true,
+                    "color": "#ffc97e"
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/site.svg",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Riverside Building, County Hall, London",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px",
+                    "wrap": true,
+                    "color": "#ffc97e"
                   }
                 ],
                 "alignItems": "center",
@@ -153,11 +190,19 @@
         ],
         "justifyContent": "center"
       }
-    ]
+    ],
+    "paddingTop": "xxl",
+    "paddingBottom": "xxl"
   },
   "styles": {
+    "header": {
+      "backgroundColor": "#000000"
+    },
     "body": {
-      "backgroundColor": "#f4f4f3"
+      "backgroundColor": "#000000"
+    },
+    "footer": {
+      "backgroundColor": "#000000"
     }
   }
 }

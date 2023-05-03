@@ -16,12 +16,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://cdn.discordapp.com/attachments/1080879265945489489/1084490307145584761/show0311_logo_with_Awhite_background_simple_style_156c4027-8ed3-497b-b502-e6d28ae5ed25.png"
-          },
-          {
-            "type": "text",
-            "text": "Anne",
-            "size": "md"
+            "url": "https://i.imgur.com/qj56QiQ.png"
           }
         ],
         "flex": 0,
@@ -30,14 +25,22 @@
         "paddingAll": "md"
       },
       {
-        "type": "separator",
-        "margin": "5px",
-        "color": "#333333"
-      },
-      {
         "type": "box",
         "layout": "vertical",
         "contents": [
+          {
+            "type": "image",
+            "url": "https://vehlogo.com/wp-content/uploads/2021/03/lamborghini_text_logo-2048x585.png",
+            "aspectRatio": "81:23"
+          },
+          {
+            "margin": "xs",
+            "size": "xxs",
+            "text": "ACCOUNTANT",
+            "type": "text",
+            "wrap": true,
+            "align": "center"
+          },
           {
             "type": "box",
             "layout": "vertical",
@@ -49,7 +52,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone.svg",
+                    "url": "https://cdn.iconscout.com/icon/free/png-512/free-phone-1767889-1502142.png?f=avif&w=512",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -86,13 +89,13 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/site.svg",
+                    "url": "https://cdn.iconscout.com/icon/free/png-512/free-world-293-457791.png?f=avif&w=512",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
                   {
                     "type": "text",
-                    "text": "showanne.github.io",
+                    "text": "lamborghini.com",
                     "margin": "sm",
                     "flex": 0,
                     "action": {
@@ -123,13 +126,13 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/mail.svg",
+                    "url": "https://cdn.iconscout.com/icon/free/png-512/free-mail-1779895-1518547.png?f=avif&w=512",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
                   {
                     "type": "text",
-                    "text": "showanne.e@gmail.com",
+                    "text": "lamborghini@gmail.com",
                     "margin": "sm",
                     "flex": 0,
                     "action": {
@@ -149,15 +152,47 @@
               }
             ],
             "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://cdn.iconscout.com/icon/free/png-512/free-location-2456681-2036135.png?f=avif&w=512",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Riverside Building, County Hall, London",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px",
+                    "wrap": true
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
           }
-        ],
-        "justifyContent": "center"
+        ]
       }
     ]
-  },
-  "styles": {
-    "body": {
-      "backgroundColor": "#f4f4f3"
-    }
   }
 }
