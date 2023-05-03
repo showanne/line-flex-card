@@ -64,7 +64,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://cdn.iconscout.com/icon/free/png-512/free-phone-1767889-1502142.png?f=avif&w=512",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-b.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -101,7 +101,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://cdn.iconscout.com/icon/free/png-512/free-world-293-457791.png?f=avif&w=512",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-b.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -138,7 +138,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://cdn.iconscout.com/icon/free/png-512/free-mail-1779895-1518547.png?f=avif&w=512",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-b.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -176,7 +176,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://cdn.iconscout.com/icon/free/png-512/free-location-2456681-2036135.png?f=avif&w=512",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-b.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },

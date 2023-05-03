@@ -1,10 +1,12 @@
 {
   "type": "bubble",
-  "size": "giga",
-  "header": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": []
+  "hero": {
+    "type": "image",
+    "url": "https://showanne.github.io/line-flex-card/img/card-sample/card-02-bg.png",
+    "aspectMode": "cover",
+    "size": "full",
+    "position": "absolute",
+    "aspectRatio": "33.5:19.7"
   },
   "body": {
     "type": "box",
@@ -21,18 +23,17 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://cdn-icons-png.flaticon.com/512/81/81392.png"
+            "url": "https://i.imgur.com/qj56QiQ.png",
+            "gravity": "center",
+            "align": "center",
+            "size": "xl"
           }
         ],
         "flex": 0,
         "justifyContent": "center",
         "alignItems": "center",
-        "paddingAll": "md"
-      },
-      {
-        "type": "separator",
-        "margin": "5px",
-        "color": "#333333"
+        "paddingAll": "md",
+        "width": "49%"
       },
       {
         "type": "box",
@@ -201,13 +202,10 @@
             ],
             "paddingTop": "5px"
           }
-        ]
+        ],
+        "width": "49%"
       }
     ]
   },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": []
-  }
+  "size": "giga"
 }

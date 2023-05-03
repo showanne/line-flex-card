@@ -44,7 +44,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone.svg",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-w.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -60,6 +60,7 @@
                     },
                     "align": "start",
                     "offsetBottom": "3px",
+                    "offsetStart": "3px",
                     "color": "#ffc97e"
                   }
                 ],
@@ -82,7 +83,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/site.svg",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-w.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -98,6 +99,7 @@
                     },
                     "align": "start",
                     "offsetBottom": "3px",
+                    "offsetStart": "3px",
                     "color": "#ffc97e"
                   }
                 ],
@@ -120,7 +122,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/mail.svg",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-w.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -136,6 +138,7 @@
                     },
                     "align": "start",
                     "offsetBottom": "3px",
+                    "offsetStart": "3px",
                     "wrap": true,
                     "color": "#ffc97e"
                   }
@@ -159,7 +162,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/site.svg",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-w.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -175,6 +178,7 @@
                     },
                     "align": "start",
                     "offsetBottom": "3px",
+                    "offsetStart": "3px",
                     "wrap": true,
                     "color": "#ffc97e"
                   }
