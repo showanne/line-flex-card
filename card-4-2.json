@@ -8,12 +8,11 @@
       {
         "type": "image",
         "url": "https://showanne.github.io/line-flex-card/img/card-sample/card-03-bg.png",
-        "aspectMode": "cover",
-        "aspectRatio": "100:59",
+        "aspectMode": "fit",
+        "aspectRatio": "100:65",
         "flex": 1,
-        "gravity": "top",
         "size": "full",
-        "align": "center"
+        "align": "start"
       },
       {
         "type": "box",
@@ -22,7 +21,7 @@
           {
             "type": "box",
             "layout": "horizontal",
-            "spacing": "xl",
+            "spacing": "lg",
             "action": {
               "type": "uri",
               "uri": "https://showanne.github.io/"
@@ -74,7 +73,7 @@
                   {
                     "type": "box",
                     "layout": "vertical",
-                    "spacing": "sm",
+                    "spacing": "xs",
                     "contents": [
                       {
                         "type": "box",
@@ -113,7 +112,7 @@
                   {
                     "type": "box",
                     "layout": "vertical",
-                    "spacing": "sm",
+                    "spacing": "xs",
                     "contents": [
                       {
                         "type": "box",
@@ -153,7 +152,7 @@
                   {
                     "type": "box",
                     "layout": "vertical",
-                    "spacing": "sm",
+                    "spacing": "xs",
                     "contents": [
                       {
                         "type": "box",
@@ -197,14 +196,10 @@
                 "paddingEnd": "xl"
               }
             ],
-            "margin": "lg"
+            "margin": "sm"
           }
         ],
         "position": "absolute",
-        "offsetTop": "0px",
-        "offsetBottom": "0px",
-        "offsetStart": "0px",
-        "offsetEnd": "0px",
         "paddingAll": "xl"
       }
     ],
