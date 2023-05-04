@@ -1,192 +1,213 @@
 {
   "type": "bubble",
   "size": "giga",
-  "hero": {
-    "type": "image",
-    "url": "https://showanne.github.io/line-flex-card/img/card-sample/card-03-bg.png",
-    "aspectMode": "cover",
-    "size": "full",
-    "position": "absolute",
-    "aspectRatio": "33.5:19.7"
-  },
   "body": {
     "type": "box",
-    "layout": "horizontal",
-    "spacing": "xl",
-    "action": {
-      "type": "uri",
-      "uri": "https://showanne.github.io/"
-    },
+    "layout": "vertical",
     "contents": [
       {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [],
-        "flex": 0,
-        "justifyContent": "center",
-        "alignItems": "center",
-        "paddingAll": "md",
-        "width": "40%"
+        "type": "image",
+        "url": "https://showanne.github.io/line-flex-card/img/card-sample/card-03-bg.png",
+        "aspectMode": "cover",
+        "aspectRatio": "100:59",
+        "flex": 1,
+        "gravity": "top",
+        "size": "full",
+        "align": "center"
       },
       {
         "type": "box",
         "layout": "vertical",
         "contents": [
           {
-            "margin": "xs",
-            "size": "xl",
-            "text": "Olivia Wilson",
-            "type": "text",
-            "wrap": true,
-            "align": "end",
-            "weight": "bold"
-          },
-          {
             "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "margin": "xs",
-                "size": "sm",
-                "text": "Frontend Engineer",
-                "type": "text",
-                "wrap": true,
-                "align": "end"
-              }
-            ],
-            "backgroundColor": "#f7e1d5",
-            "borderWidth": "none",
-            "cornerRadius": "lg",
-            "paddingAll": "sm",
-            "paddingEnd": "md",
-            "paddingStart": "lg"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
+            "layout": "horizontal",
+            "spacing": "xl",
+            "action": {
+              "type": "uri",
+              "uri": "https://showanne.github.io/"
+            },
             "contents": [
               {
                 "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "+886 918184250",
-                    "margin": "sm",
-                    "flex": 0,
-                    "action": {
-                      "type": "uri",
-                      "label": "action",
-                      "uri": "tel:0918184250"
-                    },
-                    "align": "end",
-                    "offsetBottom": "3px",
-                    "offsetEnd": "3px"
-                  },
-                  {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-b.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm"
-                  }
-                ],
+                "layout": "vertical",
+                "contents": [],
                 "flex": 0,
-                "paddingTop": "5px",
-                "paddingBottom": "5px",
-                "justifyContent": "flex-end",
-                "alignItems": "center"
-              }
-            ],
-            "paddingTop": "5px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "Riverside Building, County Hall, London",
-                    "margin": "sm",
-                    "flex": 0,
-                    "action": {
-                      "type": "uri",
-                      "label": "action",
-                      "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
-                    },
-                    "align": "end",
-                    "offsetBottom": "3px",
-                    "wrap": true,
-                    "offsetEnd": "3px"
-                  },
-                  {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-b.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm"
-                  }
-                ],
+                "justifyContent": "center",
                 "alignItems": "center",
-                "flex": 0,
-                "paddingTop": "5px",
-                "paddingBottom": "5px",
-                "justifyContent": "flex-end"
-              }
-            ],
-            "paddingTop": "5px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "contents": [
+                "paddingAll": "md",
+                "width": "40%"
+              },
               {
                 "type": "box",
-                "layout": "baseline",
+                "layout": "vertical",
                 "contents": [
                   {
+                    "margin": "xs",
+                    "size": "xl",
+                    "text": "Olivia Wilson",
                     "type": "text",
-                    "text": "lamborghini@gmail.com",
-                    "margin": "sm",
-                    "flex": 0,
-                    "action": {
-                      "type": "uri",
-                      "label": "action",
-                      "uri": "mailto:showanne.e@gmail.com"
-                    },
-                    "align": "end",
-                    "offsetBottom": "3px",
                     "wrap": true,
-                    "offsetEnd": "3px"
+                    "align": "end",
+                    "weight": "bold"
                   },
                   {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-b.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm"
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "margin": "xs",
+                        "size": "sm",
+                        "text": "Frontend Engineer",
+                        "type": "text",
+                        "wrap": true,
+                        "align": "end"
+                      }
+                    ],
+                    "backgroundColor": "#f7e1d5",
+                    "borderWidth": "none",
+                    "cornerRadius": "lg",
+                    "paddingAll": "sm",
+                    "paddingEnd": "md",
+                    "paddingStart": "lg"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "+886 918184250",
+                            "margin": "sm",
+                            "flex": 0,
+                            "action": {
+                              "type": "uri",
+                              "label": "action",
+                              "uri": "tel:0918184250"
+                            },
+                            "align": "end",
+                            "offsetBottom": "3px",
+                            "offsetEnd": "3px"
+                          },
+                          {
+                            "type": "icon",
+                            "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-b.png",
+                            "aspectRatio": "1:1",
+                            "margin": "sm"
+                          }
+                        ],
+                        "flex": 0,
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px",
+                        "justifyContent": "flex-end",
+                        "alignItems": "center"
+                      }
+                    ],
+                    "paddingTop": "5px"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "Riverside Building, County Hall, London",
+                            "margin": "sm",
+                            "flex": 0,
+                            "action": {
+                              "type": "uri",
+                              "label": "action",
+                              "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
+                            },
+                            "align": "end",
+                            "offsetBottom": "3px",
+                            "wrap": true,
+                            "offsetEnd": "3px"
+                          },
+                          {
+                            "type": "icon",
+                            "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-b.png",
+                            "aspectRatio": "1:1",
+                            "margin": "sm"
+                          }
+                        ],
+                        "alignItems": "center",
+                        "flex": 0,
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px",
+                        "justifyContent": "flex-end"
+                      }
+                    ],
+                    "paddingTop": "5px"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "lamborghini@gmail.com",
+                            "margin": "sm",
+                            "flex": 0,
+                            "action": {
+                              "type": "uri",
+                              "label": "action",
+                              "uri": "mailto:showanne.e@gmail.com"
+                            },
+                            "align": "end",
+                            "offsetBottom": "3px",
+                            "wrap": true,
+                            "offsetEnd": "3px"
+                          },
+                          {
+                            "type": "icon",
+                            "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-b.png",
+                            "aspectRatio": "1:1",
+                            "margin": "sm"
+                          }
+                        ],
+                        "alignItems": "center",
+                        "flex": 0,
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px",
+                        "justifyContent": "flex-end"
+                      }
+                    ],
+                    "paddingTop": "5px"
                   }
                 ],
-                "alignItems": "center",
-                "flex": 0,
-                "paddingTop": "5px",
-                "paddingBottom": "5px",
-                "justifyContent": "flex-end"
+                "width": "60%",
+                "alignItems": "flex-end",
+                "margin": "lg",
+                "paddingEnd": "xl"
               }
             ],
-            "paddingTop": "5px"
+            "margin": "lg"
           }
         ],
-        "width": "60%",
-        "alignItems": "flex-end",
-        "margin": "lg",
-        "paddingEnd": "xl"
+        "position": "absolute",
+        "offsetTop": "0px",
+        "offsetBottom": "0px",
+        "offsetStart": "0px",
+        "offsetEnd": "0px",
+        "paddingAll": "xl"
       }
     ],
-    "margin": "lg"
+    "paddingAll": "0px"
   }
 }
