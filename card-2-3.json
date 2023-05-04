@@ -1,211 +1,231 @@
 {
   "type": "bubble",
-  "hero": {
-    "type": "image",
-    "url": "https://showanne.github.io/line-flex-card/img/card-sample/card-02-bg.png",
-    "aspectMode": "cover",
-    "size": "full",
-    "position": "absolute",
-    "aspectRatio": "33.5:19.7"
-  },
   "body": {
     "type": "box",
-    "layout": "horizontal",
-    "spacing": "xl",
-    "action": {
-      "type": "uri",
-      "uri": "https://showanne.github.io/"
-    },
+    "layout": "vertical",
     "contents": [
       {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://i.imgur.com/qj56QiQ.png",
-            "gravity": "center",
-            "align": "center",
-            "size": "xl"
-          }
-        ],
-        "flex": 0,
-        "justifyContent": "center",
-        "alignItems": "center",
-        "paddingAll": "md",
-        "width": "49%"
+        "type": "image",
+        "url": "https://showanne.github.io/line-flex-card/img/card-sample/card-02-bg.png",
+        "aspectMode": "cover",
+        "aspectRatio": "100:59",
+        "flex": 1,
+        "gravity": "top",
+        "size": "full",
+        "align": "center"
       },
       {
         "type": "box",
         "layout": "vertical",
         "contents": [
           {
-            "type": "image",
-            "url": "https://vehlogo.com/wp-content/uploads/2021/03/lamborghini_text_logo-2048x585.png",
-            "aspectRatio": "81:23"
-          },
-          {
-            "margin": "xs",
-            "size": "xxs",
-            "text": "ACCOUNTANT",
-            "type": "text",
-            "wrap": true,
-            "align": "center"
-          },
-          {
             "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
+            "layout": "horizontal",
+            "spacing": "xl",
+            "action": {
+              "type": "uri",
+              "uri": "https://showanne.github.io/"
+            },
             "contents": [
               {
                 "type": "box",
-                "layout": "baseline",
+                "layout": "vertical",
                 "contents": [
                   {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-b.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm"
-                  },
-                  {
-                    "type": "text",
-                    "text": "+886 918184250",
-                    "margin": "sm",
-                    "flex": 0,
-                    "action": {
-                      "type": "uri",
-                      "label": "action",
-                      "uri": "tel:0918184250"
-                    },
-                    "align": "start",
-                    "offsetBottom": "3px"
+                    "type": "image",
+                    "url": "https://i.imgur.com/qj56QiQ.png",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xl"
                   }
                 ],
-                "alignItems": "center",
                 "flex": 0,
-                "paddingTop": "5px",
-                "paddingBottom": "5px"
-              }
-            ],
-            "paddingTop": "5px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "contents": [
+                "justifyContent": "center",
+                "alignItems": "center",
+                "paddingAll": "md",
+                "width": "49%"
+              },
               {
                 "type": "box",
-                "layout": "baseline",
+                "layout": "vertical",
                 "contents": [
                   {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-b.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm"
+                    "type": "image",
+                    "url": "https://vehlogo.com/wp-content/uploads/2021/03/lamborghini_text_logo-2048x585.png",
+                    "aspectRatio": "81:23"
                   },
                   {
+                    "margin": "xs",
+                    "size": "xxs",
+                    "text": "ACCOUNTANT",
                     "type": "text",
-                    "text": "lamborghini.com",
-                    "margin": "sm",
-                    "flex": 0,
-                    "action": {
-                      "type": "uri",
-                      "label": "action",
-                      "uri": "https://showanne.github.io/"
-                    },
-                    "align": "start",
-                    "offsetBottom": "3px"
-                  }
-                ],
-                "alignItems": "center",
-                "flex": 0,
-                "paddingTop": "5px",
-                "paddingBottom": "5px"
-              }
-            ],
-            "paddingTop": "5px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-b.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm"
+                    "wrap": true,
+                    "align": "center"
                   },
                   {
-                    "type": "text",
-                    "text": "lamborghini@gmail.com",
-                    "margin": "sm",
-                    "flex": 0,
-                    "action": {
-                      "type": "uri",
-                      "label": "action",
-                      "uri": "mailto:showanne.e@gmail.com"
-                    },
-                    "align": "start",
-                    "offsetBottom": "3px",
-                    "wrap": true
-                  }
-                ],
-                "alignItems": "center",
-                "flex": 0,
-                "paddingTop": "5px",
-                "paddingBottom": "5px"
-              }
-            ],
-            "paddingTop": "5px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-b.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm"
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "icon",
+                            "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-b.png",
+                            "aspectRatio": "1:1",
+                            "margin": "sm"
+                          },
+                          {
+                            "type": "text",
+                            "text": "+886 918184250",
+                            "margin": "sm",
+                            "flex": 0,
+                            "action": {
+                              "type": "uri",
+                              "label": "action",
+                              "uri": "tel:0918184250"
+                            },
+                            "align": "start",
+                            "offsetBottom": "3px"
+                          }
+                        ],
+                        "alignItems": "center",
+                        "flex": 0,
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px"
+                      }
+                    ],
+                    "paddingTop": "5px"
                   },
                   {
-                    "type": "text",
-                    "text": "Riverside Building, County Hall, London",
-                    "margin": "sm",
-                    "flex": 0,
-                    "action": {
-                      "type": "uri",
-                      "label": "action",
-                      "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
-                    },
-                    "align": "start",
-                    "offsetBottom": "3px",
-                    "wrap": true
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "icon",
+                            "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-b.png",
+                            "aspectRatio": "1:1",
+                            "margin": "sm"
+                          },
+                          {
+                            "type": "text",
+                            "text": "lamborghini.com",
+                            "margin": "sm",
+                            "flex": 0,
+                            "action": {
+                              "type": "uri",
+                              "label": "action",
+                              "uri": "https://showanne.github.io/"
+                            },
+                            "align": "start",
+                            "offsetBottom": "3px"
+                          }
+                        ],
+                        "alignItems": "center",
+                        "flex": 0,
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px"
+                      }
+                    ],
+                    "paddingTop": "5px"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "icon",
+                            "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-b.png",
+                            "aspectRatio": "1:1",
+                            "margin": "sm"
+                          },
+                          {
+                            "type": "text",
+                            "text": "lamborghini@gmail.com",
+                            "margin": "sm",
+                            "flex": 0,
+                            "action": {
+                              "type": "uri",
+                              "label": "action",
+                              "uri": "mailto:showanne.e@gmail.com"
+                            },
+                            "align": "start",
+                            "offsetBottom": "3px",
+                            "wrap": true
+                          }
+                        ],
+                        "alignItems": "center",
+                        "flex": 0,
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px"
+                      }
+                    ],
+                    "paddingTop": "5px"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "icon",
+                            "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-b.png",
+                            "aspectRatio": "1:1",
+                            "margin": "sm"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Riverside Building, County Hall, London",
+                            "margin": "sm",
+                            "flex": 0,
+                            "action": {
+                              "type": "uri",
+                              "label": "action",
+                              "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
+                            },
+                            "align": "start",
+                            "offsetBottom": "3px",
+                            "wrap": true
+                          }
+                        ],
+                        "alignItems": "center",
+                        "flex": 0,
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px"
+                      }
+                    ],
+                    "paddingTop": "5px"
                   }
                 ],
-                "alignItems": "center",
-                "flex": 0,
-                "paddingTop": "5px",
-                "paddingBottom": "5px"
+                "width": "49%"
               }
-            ],
-            "paddingTop": "5px"
+            ]
           }
         ],
-        "width": "49%"
+        "position": "absolute",
+        "offsetTop": "0px",
+        "offsetBottom": "0px",
+        "offsetStart": "0px",
+        "offsetEnd": "0px",
+        "paddingAll": "xl"
       }
-    ]
-  },
-  "size": "giga"
+    ],
+    "paddingAll": "0px"
+  }
 }
