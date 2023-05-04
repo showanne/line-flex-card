@@ -1,14 +1,15 @@
 {
   "type": "bubble",
+  "size": "giga",
   "body": {
     "type": "box",
     "layout": "vertical",
     "contents": [
       {
         "type": "image",
-        "url": "https://showanne.github.io/line-flex-card/img/card-sample/card-02-bg.png",
+        "url": "https://imgur.com/yWyPIb8.png",
         "aspectMode": "cover",
-        "aspectRatio": "100:59",
+        "aspectRatio": "100:72",
         "flex": 1,
         "gravity": "top",
         "size": "full",
@@ -21,7 +22,6 @@
           {
             "type": "box",
             "layout": "horizontal",
-            "spacing": "xl",
             "action": {
               "type": "uri",
               "uri": "https://showanne.github.io/"
@@ -33,17 +33,16 @@
                 "contents": [
                   {
                     "type": "image",
-                    "url": "https://i.imgur.com/qj56QiQ.png",
-                    "gravity": "center",
-                    "align": "center",
-                    "size": "xl"
+                    "url": "https://imgur.com/bghiXxx.png",
+                    "aspectRatio": "43:37",
+                    "size": "3xl"
                   }
                 ],
                 "flex": 0,
                 "justifyContent": "center",
                 "alignItems": "center",
                 "paddingAll": "md",
-                "width": "49%"
+                "width": "45%"
               },
               {
                 "type": "box",
@@ -153,7 +152,7 @@
                           },
                           {
                             "type": "text",
-                            "text": "lamborghini@gmail.com",
+                            "text": "lamb@gmail.com",
                             "margin": "sm",
                             "flex": 0,
                             "action": {
@@ -191,7 +190,7 @@
                           },
                           {
                             "type": "text",
-                            "text": "Riverside Building, County Hall, London",
+                            "text": "Riverside Building, London",
                             "margin": "sm",
                             "flex": 0,
                             "action": {
@@ -213,7 +212,7 @@
                     "paddingTop": "5px"
                   }
                 ],
-                "width": "49%"
+                "width": "55%"
               }
             ]
           }
