@@ -1,4 +1,8 @@
 {
+"type": "flex",
+"altText": "這是『Anne』的名片，很高興認識你 ^^",
+"contents": 
+{
   "type": "bubble",
   "size": "giga",
   "body": {
@@ -209,4 +213,5 @@
       "backgroundColor": "#000000"
     }
   }
+}
 }
