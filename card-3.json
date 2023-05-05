@@ -48,19 +48,19 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-w.png",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-g.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
                   {
                     "type": "text",
-                    "text": "+886 918184250",
+                    "text": "+886 912345678",
                     "margin": "sm",
                     "flex": 0,
                     "action": {
                       "type": "uri",
                       "label": "action",
-                      "uri": "tel:0918184250"
+                      "uri": "tel:0912345678"
                     },
                     "align": "start",
                     "offsetBottom": "3px",
@@ -87,7 +87,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-w.png",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-g.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
@@ -126,19 +126,19 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-w.png",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-g.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
                   {
                     "type": "text",
-                    "text": "showanne.e@gmail.com",
+                    "text": "abc@gmail.com",
                     "margin": "sm",
                     "flex": 0,
                     "action": {
                       "type": "uri",
                       "label": "action",
-                      "uri": "mailto:showanne.e@gmail.com"
+                      "uri": "mailto:abc@gmail.com"
                     },
                     "align": "start",
                     "offsetBottom": "3px",
@@ -166,7 +166,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-w.png",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-g.png",
                     "aspectRatio": "1:1",
                     "margin": "sm"
                   },
