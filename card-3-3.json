@@ -1,0 +1,217 @@
+{
+"type": "flex",
+"altText": "這是『Anne』的名片，很高興認識你 ^^",
+"contents": 
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "xl",
+    "action": {
+      "type": "uri",
+      "uri": "https://showanne.github.io/"
+    },
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/wAtdqfv.png"
+          }
+        ],
+        "flex": 0,
+        "justifyContent": "center",
+        "alignItems": "center",
+        "paddingAll": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "5px",
+        "color": "#ffc97e"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-g.png",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "+886 912345678",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "tel:0912345678"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px",
+                    "offsetStart": "3px",
+                    "color": "#ffc97e"
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-g.png",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "showanne.github.io",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "https://showanne.github.io/"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px",
+                    "offsetStart": "3px",
+                    "color": "#ffc97e"
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-g.png",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "abc@gmail.com",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "mailto:abc@gmail.com"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px",
+                    "offsetStart": "3px",
+                    "wrap": true,
+                    "color": "#ffc97e"
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-g.png",
+                    "aspectRatio": "1:1",
+                    "margin": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Riverside Building, County Hall, London",
+                    "margin": "sm",
+                    "flex": 0,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
+                    },
+                    "align": "start",
+                    "offsetBottom": "3px",
+                    "offsetStart": "3px",
+                    "wrap": true,
+                    "color": "#ffc97e"
+                  }
+                ],
+                "alignItems": "center",
+                "flex": 0,
+                "paddingTop": "5px",
+                "paddingBottom": "5px"
+              }
+            ],
+            "paddingTop": "5px"
+          }
+        ],
+        "justifyContent": "center"
+      }
+    ],
+    "paddingTop": "xxl",
+    "paddingBottom": "xxl"
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#000000"
+    },
+    "body": {
+      "backgroundColor": "#000000"
+    },
+    "footer": {
+      "backgroundColor": "#000000"
+    }
+  }
+}
+}
