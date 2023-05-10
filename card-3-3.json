@@ -214,96 +214,117 @@
               "contents": [
                 {
                   "type": "box",
-                  "layout": "baseline",
+                  "layout": "vertical",
                   "contents": [
                     {
-                      "type": "icon",
-                      "url": "https://showanne.github.io/line-flex-card/img/icon/instagram-g.png",
-                      "aspectRatio": "1:1",
-                      "margin": "sm",
-                      "offsetTop": "xs"
+                      "type": "box",
+                      "layout": "baseline",
+                      "contents": [
+                        {
+                          "type": "icon",
+                          "url": "https://showanne.github.io/line-flex-card/img/icon/instagram-g.png",
+                          "aspectRatio": "1:1",
+                          "margin": "sm",
+                          "offsetTop": "xs"
+                        },
+                        {
+                          "type": "text",
+                          "text": "IG",
+                          "margin": "md",
+                          "color": "#ffc97e"
+                        }
+                      ],
+                      "paddingAll": "md",
+                      "action": {
+                        "type": "uri",
+                        "label": "action",
+                        "uri": "https://www.instagram.com/toxic_michelle/",
+                        "altUri": {
+                          "desktop": "https://www.instagram.com/toxic_michelle/"
+                        }
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "IG",
-                      "margin": "md",
+                      "type": "separator",
                       "color": "#ffc97e"
                     }
-                  ],
-                  "borderWidth": "light",
-                  "borderColor": "#ffc97e",
-                  "cornerRadius": "xs",
-                  "paddingAll": "md",
-                  "action": {
-                    "type": "uri",
-                    "label": "action",
-                    "uri": "https://www.instagram.com/toxic_michelle/",
-                    "altUri": {
-                      "desktop": "https://www.instagram.com/toxic_michelle/"
-                    }
-                  }
+                  ]
                 },
                 {
                   "type": "box",
-                  "layout": "baseline",
+                  "layout": "vertical",
                   "contents": [
                     {
-                      "type": "icon",
-                      "url": "https://showanne.github.io/line-flex-card/img/icon/facebook-g.png",
-                      "aspectRatio": "1:1",
-                      "margin": "sm",
-                      "offsetTop": "xs"
+                      "type": "box",
+                      "layout": "baseline",
+                      "contents": [
+                        {
+                          "type": "icon",
+                          "url": "https://showanne.github.io/line-flex-card/img/icon/facebook-g.png",
+                          "aspectRatio": "1:1",
+                          "margin": "sm",
+                          "offsetTop": "xs"
+                        },
+                        {
+                          "type": "text",
+                          "text": "FB",
+                          "margin": "md",
+                          "color": "#ffc97e"
+                        }
+                      ],
+                      "paddingAll": "md",
+                      "action": {
+                        "type": "uri",
+                        "label": "action",
+                        "uri": "https://www.facebook.com/profile.php?id=100083372349733",
+                        "altUri": {
+                          "desktop": "https://www.facebook.com/profile.php?id=100083372349733"
+                        }
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "FB",
-                      "margin": "md",
+                      "type": "separator",
                       "color": "#ffc97e"
                     }
-                  ],
-                  "borderWidth": "light",
-                  "borderColor": "#ffc97e",
-                  "cornerRadius": "xs",
-                  "paddingAll": "md",
-                  "action": {
-                    "type": "uri",
-                    "label": "action",
-                    "uri": "https://www.facebook.com/profile.php?id=100083372349733",
-                    "altUri": {
-                      "desktop": "https://www.facebook.com/profile.php?id=100083372349733"
-                    }
-                  }
+                  ]
                 },
                 {
                   "type": "box",
-                  "layout": "baseline",
+                  "layout": "vertical",
                   "contents": [
                     {
-                      "type": "icon",
-                      "url": "https://showanne.github.io/line-flex-card/img/icon/youtube-g.png",
-                      "aspectRatio": "1:1",
-                      "margin": "sm",
-                      "offsetTop": "xs"
+                      "type": "box",
+                      "layout": "baseline",
+                      "contents": [
+                        {
+                          "type": "icon",
+                          "url": "https://showanne.github.io/line-flex-card/img/icon/youtube-g.png",
+                          "aspectRatio": "1:1",
+                          "margin": "sm",
+                          "offsetTop": "xs"
+                        },
+                        {
+                          "type": "text",
+                          "text": "YT",
+                          "margin": "md",
+                          "color": "#ffc97e"
+                        }
+                      ],
+                      "paddingAll": "md",
+                      "action": {
+                        "type": "uri",
+                        "label": "action",
+                        "uri": "https://www.youtube.com/channel/UClIC2B_IwfvUnwIQGp3jfvA",
+                        "altUri": {
+                          "desktop": "https://www.youtube.com/channel/UClIC2B_IwfvUnwIQGp3jfvA"
+                        }
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "YT",
-                      "margin": "md",
+                      "type": "separator",
                       "color": "#ffc97e"
                     }
-                  ],
-                  "borderWidth": "light",
-                  "borderColor": "#ffc97e",
-                  "cornerRadius": "xs",
-                  "paddingAll": "md",
-                  "action": {
-                    "type": "uri",
-                    "label": "action",
-                    "uri": "https://www.youtube.com/channel/UClIC2B_IwfvUnwIQGp3jfvA",
-                    "altUri": {
-                      "desktop": "https://www.youtube.com/channel/UClIC2B_IwfvUnwIQGp3jfvA"
-                    }
-                  }
+                  ]
                 },
                 {
                   "type": "box",
