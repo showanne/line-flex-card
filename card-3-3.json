@@ -1,324 +1,354 @@
 {
-"type": "flex",
-"altText": "這是『Anne』的名片，很高興認識你 ^^",
-"contents": 
-{
-  "type": "bubble",
-  "size": "giga",
-  "body": {
-    "type": "box",
-    "layout": "horizontal",
-    "spacing": "xl",
-    "action": {
-      "type": "uri",
-      "uri": "https://showanne.github.io/"
-    },
-    "contents": [
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "image",
-                    "url": "https://i.imgur.com/wAtdqfv.png"
-                  }
-                ],
-                "flex": 0,
-                "justifyContent": "center",
-                "alignItems": "center",
-                "paddingAll": "md"
-              },
-              {
-                "type": "separator",
-                "margin": "5px",
-                "color": "#ffc97e"
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "spacing": "sm",
-                    "contents": [
-                      {
-                        "type": "box",
-                        "layout": "baseline",
-                        "contents": [
-                          {
-                            "type": "icon",
-                            "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-g.png",
-                            "aspectRatio": "1:1",
-                            "margin": "sm"
-                          },
-                          {
-                            "type": "text",
-                            "text": "+886 912345678",
-                            "margin": "sm",
-                            "flex": 0,
-                            "action": {
-                              "type": "uri",
-                              "label": "action",
-                              "uri": "tel:0912345678"
-                            },
-                            "align": "start",
-                            "offsetBottom": "3px",
-                            "offsetStart": "3px",
-                            "color": "#ffc97e"
-                          }
-                        ],
-                        "alignItems": "center",
-                        "flex": 0,
-                        "paddingTop": "5px",
-                        "paddingBottom": "5px"
-                      }
-                    ],
-                    "paddingTop": "5px"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "spacing": "sm",
-                    "contents": [
-                      {
-                        "type": "box",
-                        "layout": "baseline",
-                        "contents": [
-                          {
-                            "type": "icon",
-                            "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-g.png",
-                            "aspectRatio": "1:1",
-                            "margin": "sm"
-                          },
-                          {
-                            "type": "text",
-                            "text": "showanne.github.io",
-                            "margin": "sm",
-                            "flex": 0,
-                            "action": {
-                              "type": "uri",
-                              "label": "action",
-                              "uri": "https://showanne.github.io/"
-                            },
-                            "align": "start",
-                            "offsetBottom": "3px",
-                            "offsetStart": "3px",
-                            "color": "#ffc97e"
-                          }
-                        ],
-                        "alignItems": "center",
-                        "flex": 0,
-                        "paddingTop": "5px",
-                        "paddingBottom": "5px"
-                      }
-                    ],
-                    "paddingTop": "5px"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "spacing": "sm",
-                    "contents": [
-                      {
-                        "type": "box",
-                        "layout": "baseline",
-                        "contents": [
-                          {
-                            "type": "icon",
-                            "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-g.png",
-                            "aspectRatio": "1:1",
-                            "margin": "sm"
-                          },
-                          {
-                            "type": "text",
-                            "text": "abc@gmail.com",
-                            "margin": "sm",
-                            "flex": 0,
-                            "action": {
-                              "type": "uri",
-                              "label": "action",
-                              "uri": "mailto:abc@gmail.com"
-                            },
-                            "align": "start",
-                            "offsetBottom": "3px",
-                            "offsetStart": "3px",
-                            "wrap": true,
-                            "color": "#ffc97e"
-                          }
-                        ],
-                        "alignItems": "center",
-                        "flex": 0,
-                        "paddingTop": "5px",
-                        "paddingBottom": "5px"
-                      }
-                    ],
-                    "paddingTop": "5px"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "spacing": "sm",
-                    "contents": [
-                      {
-                        "type": "box",
-                        "layout": "baseline",
-                        "contents": [
-                          {
-                            "type": "icon",
-                            "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-g.png",
-                            "aspectRatio": "1:1",
-                            "margin": "sm"
-                          },
-                          {
-                            "type": "text",
-                            "text": "Riverside Building, County Hall, London",
-                            "margin": "sm",
-                            "flex": 0,
-                            "action": {
-                              "type": "uri",
-                              "label": "action",
-                              "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
-                            },
-                            "align": "start",
-                            "offsetBottom": "3px",
-                            "offsetStart": "3px",
-                            "wrap": true,
-                            "color": "#ffc97e"
-                          }
-                        ],
-                        "alignItems": "center",
-                        "flex": 0,
-                        "paddingTop": "5px",
-                        "paddingBottom": "5px"
-                      }
-                    ],
-                    "paddingTop": "5px"
-                  }
-                ],
-                "justifyContent": "center"
-              }
-            ],
-            "spacing": "xl"
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-g.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm",
-                    "offsetTop": "xs"
-                  },
-                  {
-                    "type": "text",
-                    "text": "web",
-                    "margin": "md",
-                    "color": "#ffc97e"
-                  }
-                ],
-                "borderWidth": "light",
-                "borderColor": "#ffc97e",
-                "cornerRadius": "xs",
-                "paddingAll": "md",
-                "action": {
-                  "type": "uri",
-                  "label": "action",
-                  "uri": "http://linecorp.com/"
-                }
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-g.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm",
-                    "offsetTop": "xs"
-                  },
-                  {
-                    "type": "text",
-                    "text": "web",
-                    "margin": "md",
-                    "color": "#ffc97e"
-                  }
-                ],
-                "borderWidth": "light",
-                "borderColor": "#ffc97e",
-                "cornerRadius": "xs",
-                "paddingAll": "md",
-                "action": {
-                  "type": "uri",
-                  "label": "action",
-                  "uri": "http://linecorp.com/"
-                }
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "icon",
-                    "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-g.png",
-                    "aspectRatio": "1:1",
-                    "margin": "sm",
-                    "offsetTop": "xs"
-                  },
-                  {
-                    "type": "text",
-                    "text": "web",
-                    "margin": "md",
-                    "color": "#ffc97e"
-                  }
-                ],
-                "borderWidth": "light",
-                "borderColor": "#ffc97e",
-                "cornerRadius": "xs",
-                "paddingAll": "md",
-                "action": {
-                  "type": "uri",
-                  "label": "action",
-                  "uri": "http://linecorp.com/"
-                }
-              }
-            ],
-            "spacing": "lg",
-            "flex": 1,
-            "justifyContent": "space-between"
-          }
-        ],
-        "spacing": "xl"
-      }
-    ],
-    "paddingTop": "xxl",
-    "paddingBottom": "xxl"
-  },
-  "styles": {
-    "header": {
-      "backgroundColor": "#000000"
-    },
+  "type": "flex",
+  "altText": "這是『Anne』的名片，很高興認識你 ^^",
+  "contents": {
+    "type": "bubble",
+    "size": "giga",
     "body": {
-      "backgroundColor": "#000000"
+      "type": "box",
+      "layout": "horizontal",
+      "spacing": "xl",
+      "action": {
+        "type": "uri",
+        "uri": "https://showanne.github.io/"
+      },
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://i.imgur.com/wAtdqfv.png"
+                    }
+                  ],
+                  "flex": 0,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "paddingAll": "md"
+                },
+                {
+                  "type": "separator",
+                  "margin": "5px",
+                  "color": "#ffc97e"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "baseline",
+                          "contents": [
+                            {
+                              "type": "icon",
+                              "url": "https://showanne.github.io/line-flex-card/img/icon/phone-alt-g.png",
+                              "aspectRatio": "1:1",
+                              "margin": "sm"
+                            },
+                            {
+                              "type": "text",
+                              "text": "+886 912345678",
+                              "margin": "sm",
+                              "flex": 0,
+                              "action": {
+                                "type": "uri",
+                                "label": "action",
+                                "uri": "tel:0912345678"
+                              },
+                              "align": "start",
+                              "offsetBottom": "3px",
+                              "offsetStart": "3px",
+                              "color": "#ffc97e"
+                            }
+                          ],
+                          "alignItems": "center",
+                          "flex": 0,
+                          "paddingTop": "5px",
+                          "paddingBottom": "5px"
+                        }
+                      ],
+                      "paddingTop": "5px"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "baseline",
+                          "contents": [
+                            {
+                              "type": "icon",
+                              "url": "https://showanne.github.io/line-flex-card/img/icon/globe-americas-g.png",
+                              "aspectRatio": "1:1",
+                              "margin": "sm"
+                            },
+                            {
+                              "type": "text",
+                              "text": "showanne.github.io",
+                              "margin": "sm",
+                              "flex": 0,
+                              "action": {
+                                "type": "uri",
+                                "label": "action",
+                                "uri": "https://showanne.github.io/"
+                              },
+                              "align": "start",
+                              "offsetBottom": "3px",
+                              "offsetStart": "3px",
+                              "color": "#ffc97e"
+                            }
+                          ],
+                          "alignItems": "center",
+                          "flex": 0,
+                          "paddingTop": "5px",
+                          "paddingBottom": "5px"
+                        }
+                      ],
+                      "paddingTop": "5px"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "baseline",
+                          "contents": [
+                            {
+                              "type": "icon",
+                              "url": "https://showanne.github.io/line-flex-card/img/icon/envelope-g.png",
+                              "aspectRatio": "1:1",
+                              "margin": "sm"
+                            },
+                            {
+                              "type": "text",
+                              "text": "abc@gmail.com",
+                              "margin": "sm",
+                              "flex": 0,
+                              "action": {
+                                "type": "uri",
+                                "label": "action",
+                                "uri": "mailto:abc@gmail.com"
+                              },
+                              "align": "start",
+                              "offsetBottom": "3px",
+                              "offsetStart": "3px",
+                              "wrap": true,
+                              "color": "#ffc97e"
+                            }
+                          ],
+                          "alignItems": "center",
+                          "flex": 0,
+                          "paddingTop": "5px",
+                          "paddingBottom": "5px"
+                        }
+                      ],
+                      "paddingTop": "5px"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "baseline",
+                          "contents": [
+                            {
+                              "type": "icon",
+                              "url": "https://showanne.github.io/line-flex-card/img/icon/map-marker-alt-g.png",
+                              "aspectRatio": "1:1",
+                              "margin": "sm"
+                            },
+                            {
+                              "type": "text",
+                              "text": "Riverside Building, County Hall, London",
+                              "margin": "sm",
+                              "flex": 0,
+                              "action": {
+                                "type": "uri",
+                                "label": "action",
+                                "uri": "https://goo.gl/maps/YXuWhthEdfK7i5LW6"
+                              },
+                              "align": "start",
+                              "offsetBottom": "3px",
+                              "offsetStart": "3px",
+                              "wrap": true,
+                              "color": "#ffc97e"
+                            }
+                          ],
+                          "alignItems": "center",
+                          "flex": 0,
+                          "paddingTop": "5px",
+                          "paddingBottom": "5px"
+                        }
+                      ],
+                      "paddingTop": "5px"
+                    }
+                  ],
+                  "justifyContent": "center"
+                }
+              ],
+              "spacing": "xl"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "icon",
+                      "url": "https://showanne.github.io/line-flex-card/img/icon/instagram-g.png",
+                      "aspectRatio": "1:1",
+                      "margin": "sm",
+                      "offsetTop": "xs"
+                    },
+                    {
+                      "type": "text",
+                      "text": "IG",
+                      "margin": "md",
+                      "color": "#ffc97e"
+                    }
+                  ],
+                  "borderWidth": "light",
+                  "borderColor": "#ffc97e",
+                  "cornerRadius": "xs",
+                  "paddingAll": "md",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.instagram.com/toxic_michelle/",
+                    "altUri": {
+                      "desktop": "https://www.instagram.com/toxic_michelle/"
+                    }
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "icon",
+                      "url": "https://showanne.github.io/line-flex-card/img/icon/facebook-g.png",
+                      "aspectRatio": "1:1",
+                      "margin": "sm",
+                      "offsetTop": "xs"
+                    },
+                    {
+                      "type": "text",
+                      "text": "FB",
+                      "margin": "md",
+                      "color": "#ffc97e"
+                    }
+                  ],
+                  "borderWidth": "light",
+                  "borderColor": "#ffc97e",
+                  "cornerRadius": "xs",
+                  "paddingAll": "md",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.facebook.com/profile.php?id=100083372349733",
+                    "altUri": {
+                      "desktop": "https://www.facebook.com/profile.php?id=100083372349733"
+                    }
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "icon",
+                      "url": "https://showanne.github.io/line-flex-card/img/icon/youtube-g.png",
+                      "aspectRatio": "1:1",
+                      "margin": "sm",
+                      "offsetTop": "xs"
+                    },
+                    {
+                      "type": "text",
+                      "text": "YT",
+                      "margin": "md",
+                      "color": "#ffc97e"
+                    }
+                  ],
+                  "borderWidth": "light",
+                  "borderColor": "#ffc97e",
+                  "cornerRadius": "xs",
+                  "paddingAll": "md",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://www.youtube.com/channel/UClIC2B_IwfvUnwIQGp3jfvA",
+                    "altUri": {
+                      "desktop": "https://www.youtube.com/channel/UClIC2B_IwfvUnwIQGp3jfvA"
+                    }
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "icon",
+                      "url": "https://showanne.github.io/line-flex-card/img/icon/share-g.png",
+                      "margin": "xs",
+                      "size": "lg",
+                      "aspectRatio": "1:1",
+                      "offsetTop": "xs"
+                    }
+                  ],
+                  "paddingAll": "md",
+                  "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://liff.line.me/1654437282-A1Bj7p4a/share-json5.html?json5=&template=aHR0cHM6Ly9naXN0LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jaHVubWluLXRhaS83Y2RkZTljNzBkZTA4MWY3NGEwYjdmNjlkNzlmYzNlYi9yYXcvNjViZjY0MjA2N2ZhNGM0ZDBjMmQyYWQzYTc1NTI5NzYzZGY4YzVkMy9nY2YtbGluZS1kZXZib3QtMjk1OTg2NjU1MjM5ODY4NzAxLmpzb241"
+                  },
+                  "alignItems": "center",
+                  "flex": 0
+                }
+              ],
+              "spacing": "lg",
+              "flex": 1,
+              "justifyContent": "space-between"
+            }
+          ],
+          "spacing": "xl"
+        }
+      ],
+      "paddingTop": "xxl",
+      "paddingBottom": "xxl"
     },
-    "footer": {
-      "backgroundColor": "#000000"
+    "styles": {
+      "header": {
+        "backgroundColor": "#000000"
+      },
+      "body": {
+        "backgroundColor": "#000000"
+      },
+      "footer": {
+        "backgroundColor": "#000000"
+      }
     }
   }
-}
 }
