@@ -1,8 +1,7 @@
 {
   "type": "flex",
   "altText": "這是『Anne』的名片，很高興認識你 ^^",
-  "contents": 
-  {
+  "contents": {
     "type": "bubble",
     "size": "giga",
     "body": {
@@ -222,7 +221,10 @@
                       "action": {
                         "type": "uri",
                         "label": "Web",
-                        "uri": "http://linecorp.com/"
+                        "uri": "https://congmingzhenzhen.webnode.tw/",
+                        "altUri": {
+                          "desktop": "https://congmingzhenzhen.webnode.tw/"
+                        }
                       },
                       "color": "#ffc97e",
                       "height": "sm"
@@ -241,7 +243,10 @@
                       "action": {
                         "type": "uri",
                         "label": "YT",
-                        "uri": "http://linecorp.com/"
+                        "uri": "https://www.youtube.com/channel/UClIC2B_IwfvUnwIQGp3jfvA",
+                        "altUri": {
+                          "desktop": "https://www.youtube.com/channel/UClIC2B_IwfvUnwIQGp3jfvA"
+                        }
                       },
                       "color": "#ffc97e",
                       "height": "sm"
@@ -260,7 +265,10 @@
                       "action": {
                         "type": "uri",
                         "label": "IG",
-                        "uri": "http://linecorp.com/"
+                        "uri": "https://www.instagram.com/toxic_michelle/",
+                        "altUri": {
+                          "desktop": "https://www.instagram.com/toxic_michelle/"
+                        }
                       },
                       "color": "#ffc97e",
                       "height": "sm"
@@ -279,7 +287,10 @@
                       "action": {
                         "type": "uri",
                         "label": "FB",
-                        "uri": "http://linecorp.com/"
+                        "uri": "https://www.facebook.com/profile.php?id=100083372349733",
+                        "altUri": {
+                          "desktop": "https://www.facebook.com/profile.php?id=100083372349733"
+                        }
                       },
                       "color": "#ffc97e",
                       "height": "sm"
@@ -311,4 +322,4 @@
       }
     }
   }
-  }
+}
